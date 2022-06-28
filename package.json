@@ -1,0 +1,44 @@
+{
+  "name": "termii-nodejs-sdk",
+  "version": "1.0.0",
+  "description": "Node js SDK for the Termii messages (SMS) and one time password (OTP) services ",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abduljeleelng/termii-nodejs-sdk.git"
+  },
+  "keywords": [
+    "Termii",
+    "OTP",
+    "otp",
+    "SMS",
+    "authentication",
+    "verification",
+    "Validation",
+    "service",
+    "telecom"
+  ],
+  "author": "Abduljeleel Yusuff <abduljeleelng@gmail.com> (https://github.com/abduljeleelng)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abduljeleelng/termii-nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/abduljeleelng/termii-nodejs-sdk#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.3",
+    "babel-jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
