@@ -10,10 +10,10 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -44,5 +44,8 @@
     "babel-jest": "^28.1.1",
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }

@@ -1,4 +1,2 @@
-import { Init } from "./utils";
-const data:object = Init();
-console.log({data})
-export {Init}
+import Termii from "./Termii";
+export default Termii
