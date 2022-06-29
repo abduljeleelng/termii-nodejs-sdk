@@ -1,8 +1,9 @@
-[![issue]](https://img.shields.io/github/issues/abduljeleelng/termii-nodejs-sdk?label=issues)
+
 
 
 <!-- [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/abduljeleelng/#readme) :joy: 💖
 ![npm bundle size](https://img.shields.io/bundlephobia/min/termii?color=yellow&label=Termii&logo=awsome)
+[![issue]](https://img.shields.io/github/issues/abduljeleelng/termii-nodejs-sdk?label=issues)
 -->
 
 
@@ -43,10 +44,10 @@ yarn add termii-nodejs-sdk
 import Termii from "termii-nodejs-sdk"
 
 #es5
-const Termii = require("termii-nodejs-sdk")
+const Termii = require("termii-nodejs-sdk").default
 
 #usage 
-const termii = new Termii("your API Key").default
+const termii = new Termii("your API Key")
 
 #Get your account balance 
 let balance = termii.balance(); #balance will return a promise
@@ -84,7 +85,7 @@ termii.balance().then(data=>{console.log({data})}).catch(err=>{console.log({err}
 import Termii from "termii-nodejs-sdk"
 
 #es5
-const Termii = require("termii-nodejs-sdk")
+const Termii = require("termii-nodejs-sdk").default
 
 #usage 
 const termii = new Termii("your API Key")
