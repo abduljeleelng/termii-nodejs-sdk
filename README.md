@@ -1,5 +1,9 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/abduljeleelng/#readme) :joy: 💖
+[![issue]](https://img.shields.io/github/issues/abduljeleelng/termii-nodejs-sdk?label=issues)
+
+
+<!-- [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/abduljeleelng/#readme) :joy: 💖
 ![npm bundle size](https://img.shields.io/bundlephobia/min/termii?color=yellow&label=Termii&logo=awsome)
+-->
 
 
 <img src="icon.png" align="right" />
@@ -16,12 +20,12 @@ Use need [NodeJS](https://nodejs.org/) or [yarn](https://yarnpkg.com) package ma
 Note: all the instance return promise.
 
 ```bash
-npm install abduljeleelng/termii-nodjs --save
+npm install termii-nodejs-sdk
 ```
 or
 
 ```bash
-yarn add abduljeleelng/termii-nodjs
+yarn add termii-nodejs-sdk
 ```
 # Get your api key
 > create an account at [termii.com](termii.com).
@@ -42,7 +46,7 @@ import Termii from "termii-nodejs-sdk"
 const Termii = require("termii-nodejs-sdk")
 
 #usage 
-const termii = new Termii("your API Key")
+const termii = new Termii("your API Key").default
 
 #Get your account balance 
 let balance = termii.balance(); #balance will return a promise
