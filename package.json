@@ -1,6 +1,6 @@
 {
   "name": "termii-nodejs-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node js SDK for the Termii messages (SMS) and one time password (OTP) services ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
