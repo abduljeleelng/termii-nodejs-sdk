@@ -13,6 +13,7 @@
   "author": "abduljeleel yusuff <abduljeleelng@gmail.com> (https://github.com/abduljeleelng)",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "termii-nodejs-sdk": "file:../.."
   }
 }
