@@ -1,14 +1,18 @@
 {
   "name": "basic",
   "version": "1.0.0",
-  "description": "basic Init example",
+  "description": "basic Termii nodejs SDK example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "exmaple",
-    "basic"
+    "basic",
+    "Termii",
+    "nodejs",
+    "OTP",
+    "SMS"
   ],
   "author": "abduljeleel yusuff <abduljeleelng@gmail.com> (https://github.com/abduljeleelng)",
   "license": "ISC",
