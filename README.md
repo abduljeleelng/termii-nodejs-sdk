@@ -146,6 +146,12 @@ const termii = new Termii("your API Key")
 ## Documentation
 [Termi services](https://termii.com)
 
+## Todo 
+- Create more sample to consume all the services 
+- create more details in the documentation
+- add more validation to the payload and response
+- write an article about the services
+
 
 ## Contact Me
 [Abduljeleel Yusuff]<mailto:abduljeleelng@gmail.com> 
