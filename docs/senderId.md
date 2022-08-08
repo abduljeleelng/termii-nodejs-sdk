@@ -4,7 +4,7 @@
 >A Sender ID is the name or number that identifies the sender of an SMS message. This API allows businesses retrieve the status of all registered sender ID and request registration of sender ID through getSenderId method.
 
 ```bash
-const Termii = require('termi-demo').default
+const Termii = require('termii-nodejs-sdk').default
 let termii = new Termii("Your API Key");
 
 termii.getSenderId().then(data=>{console.log({data})}).catch(err=>{console.log({err})})
